@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from "./pages/Home";
+import Analysis from "./pages/Analysis";
 import Navbar from './components/Navbar';
 import './App.css';
 //import Home from './components/pages/Home';
@@ -12,6 +13,7 @@ function App() {
         <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/home' exact component={Home} />
+        <Route path='/analysis' exact component={Analysis} />
           
         </Switch>
       </Router>

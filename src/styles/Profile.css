@@ -47,8 +47,9 @@
   .profile__items__pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 67%;
+    padding-top: 70%;
     overflow: hidden;
+
   }
   
   .fade-img {
@@ -59,15 +60,16 @@
   .profile__items__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
-    bottom: 0;
+    bottom: 1%;
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: rgb(3, 177, 177);
     box-sizing: border-box;
+    border-radius: 10px;
   }
   
   .profile__items__img {
@@ -94,9 +96,10 @@
   }
   
   .profile__items__text {
-    color: #252e48;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     line-height: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   @media only screen and (min-width: 1200px) {
