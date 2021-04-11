@@ -1,0 +1,30 @@
+.profile{
+    margin-left: 5%;
+}
+
+.celebName{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+}
+
+.description{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.disclaimer{
+    color: red;
+    margin-top: 1.5%;
+}
+
+.celebPic{
+    height: 550px;
+    position: absolute;
+}
+
+.mood{
+    height: 60px;
+    position: absolute;
+    bottom: -115px;
+    left: 500px;
+}
