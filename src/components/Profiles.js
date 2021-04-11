@@ -13,7 +13,7 @@ function profile() {
               src='images/KimK.jpg'
               text='Kim Kardashian - Skims'
               label='Social Media Influncer'
-              path='/'
+              path='/analysis'
             />
             <ProfileItems
               src='images/TheRock.jpg'
