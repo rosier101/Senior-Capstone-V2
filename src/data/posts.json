@@ -11,9 +11,18 @@
 
     "id": 2,
     "title": "Kim Kardashian",
-    "content": "blablabla about Kim Kardashian",
+    "content": "Social Media Public Figure",
     "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
     "slug": "hello-world",
     "img": ""
-    }
+    },
+
+        {
+            "id": 3,
+            "title": "The Rock",
+            "content": "Professional Wrestler",
+            "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
+            "slug": "hello-world",
+            "img" : ""
+        }
 ]

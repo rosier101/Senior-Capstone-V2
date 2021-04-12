@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import { useParams } from "react-router-dom";
 //import PostList from '../components/PostList';
 //import ProfileDetail from '../components/ProfileDetail';
-import posts from '../data/posts.json';
+import PostData from '../data/posts.json';
 
 
 export default function Analysis() {
 const { title } = useParams();
-  const profiles = posts.filter(profiles => profiles.title === title);
+  const profiles = PostData.filter(profiles => profiles.title === title);
 
   return (
     <div className="analysis">
