@@ -14,7 +14,7 @@
     "content": "Social Media Public Figure",
     "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
     "slug": "hello-world",
-    "img": ""
+    "img": "https://i.pinimg.com/originals/e9/1a/33/e91a3373b55e59368527f063e363daee.jpg"
     },
 
         {
@@ -23,6 +23,24 @@
             "content": "Professional Wrestler",
             "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
             "slug": "hello-world",
-            "img" : ""
+            "img" : "https://i1.wp.com/tnwtlmovement.com/wp-content/uploads/2020/03/img_1942-1.jpg?fit=728%2C728&ssl=1"
+        },
+
+        {
+            "id": 4,
+            "title": "Cristiano Ronaldo",
+            "content": "Professional Soccer Player",
+            "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
+            "slug": "hello-world",
+            "img" : "https://live.staticflickr.com/3882/14404364778_7839d5398e_b.jpg"
+        },
+
+        {
+            "id": 5,
+            "title": "Elon Musk",
+            "content": "Tesla CEO",
+            "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
+            "slug": "hello-world",
+            "img" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk.jpeg"
         }
 ]
