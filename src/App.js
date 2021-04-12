@@ -2,10 +2,11 @@ import React from 'react';
 import Home from "./pages/Home";
 import Analysis from "./pages/Analysis";
 import AboutUs from "./pages/AboutUs";
-import Navbar from './components/Navbar';
+
+import Profiles from './components/Profiles';
 import './App.css';
 //import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
         <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/home' exact component={Home} />
-        <Route path='/analysis' exact component={Analysis} />
+        <Route path="/profiles" render={props => <Profiles {...props} />} />
+        <Route path="/analysis/:title" render={props => <Analysis {...props} />}/>
         <Route path='/aboutus' exact component={AboutUs} />
+
+        {/* Redirect */}
+        <Route exact path="/"> <Redirect to="/profile" /></Route>
           
         </Switch>
       </Router>

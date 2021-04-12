@@ -13,13 +13,13 @@ function profile() {
               src='images/KimK.jpg'
               text='Kim Kardashian - Skims'
               label='Social Media Influncer'
-              path='/analysis'
+              //path='/analysis'
             />
             <ProfileItems
               src='images/TheRock.jpg'
               text='The Rock - Zoa Energy Drink'
               label='Pressional Wrestler & Actor'
-              path='/'
+              //path='/'
             />
           </ul>
           <ul className='profile__items'>
@@ -27,19 +27,19 @@ function profile() {
               src='images/Ronaldo.jpg'
               text='Cristiano Ronaldo - Portugal Team'
               label='Professional Soccer Player'
-              path='/'
+              //path='/'
             />
             <ProfileItems
               src='images/Kylie.jpg'
               text='Kylie Jenner - Kylie Cosmetics'
               label='Social Media Influncer'
-              path='/'
+              //path='/'
             />
             <ProfileItems
               src='images/Elon.jpg'
               text='Elon Musk - Tesla'
               label='CEO'
-              path='/'
+              //path='/'
             />
           </ul>
         </div>

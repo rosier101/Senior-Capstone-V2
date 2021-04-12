@@ -1,16 +1,25 @@
 import React, { Component } from 'react'
-import PostList from '../components/PostList';
-import ProfileDetail from '../components/ProfileDetail';
+import { useParams } from "react-router-dom";
+//import PostList from '../components/PostList';
+//import ProfileDetail from '../components/ProfileDetail';
+import posts from '../data/posts.json';
 
 
-export class Analysis extends Component {
-    render() {
-        return (
-            <div>
-               <ProfileDetail/> 
-            </div>
-        )
-    }
+export default function Analysis() {
+const { title } = useParams();
+  const profiles = posts.filter(profiles => profiles.title === title);
+
+  return (
+    <div className="analysis">
+      {profiles.map(pr => (
+        <div key={pr.id}>
+          <h2>{pr.title}</h2>
+          <p>{pr.content}</p>
+          <p>{pr.disclaimer}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
 
-export default Analysis
+
