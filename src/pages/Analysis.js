@@ -6,17 +6,20 @@ import Navbar from '../components/Navbar';
 
 
 export default function Analysis() {
+    
 const { title } = useParams();
 const profiles = PostData.filter(profiles => profiles.title === title);
   
 
   return (
       
+    
     <div class="profile">
-        <Navbar/>
-               
+        
+        {<Navbar/>}
                {profiles.map(pr => (
                     <div key={pr.id}>
+                        
                         <h1 class = "celebName">{pr.title}</h1>
                         <p class = "description">{pr.content}</p>
                         <p class = "disclaimer">{pr.disclaimer}</p>
