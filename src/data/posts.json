@@ -43,5 +43,14 @@
             "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
             "slug": "hello-world",
             "img" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk.jpeg"
+        },
+
+        {
+            "id": 6,
+            "title": "Jeffree Star",
+            "content": "Beauty Guru/Youtube Content Creator",
+            "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
+            "slug": "hello-world",
+            "img" : "https://i.pinimg.com/originals/a8/ed/88/a8ed88c19e5e5876b293f032d25f0a07.jpg"
         }
 ]

@@ -46,6 +46,13 @@ function profile() {
               title = "Elon Musk"
               //path='/'
             />
+            <ProfileItems
+              src='images/Jeffree.jpg'
+              text='Jeffree Star - Jeffree Star Cosmetics'
+              label='Beauty Guru'
+              title = "Jeffree Star"
+              //path='/'
+            />
           </ul>
         </div>
       </div>
