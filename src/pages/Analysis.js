@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import PostData from '../data/posts.json';
 import '../styles/ProfileDetail.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 export default function Analysis() {
@@ -10,11 +11,8 @@ export default function Analysis() {
 const { title } = useParams();
 const profiles = PostData.filter(profiles => profiles.title === title);
   
-
-  return (
-      
-    
-    <div class="profile">
+    return (
+      <div class="profile">
         
         {<Navbar/>}
                {profiles.map(pr => (
@@ -29,8 +27,11 @@ const profiles = PostData.filter(profiles => profiles.title === title);
                         <img class = "mood" src = "/images/positive.jpg" alt = "smiley"/>
                         </div>
                         
+                         
                     </div>
+                    
                 ))}
+                
             </div>
         )
     
