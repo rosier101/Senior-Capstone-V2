@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Navbar from "../components/Navbar";
 import '../styles/Header.css';
+import '../styles/AboutUs.css'
+import Footer from "../components/Footer";
 
 export class AboutUs extends Component {
     render() {
@@ -11,7 +13,7 @@ export class AboutUs extends Component {
                 <div className='header-container'>
       <video src='/videos/video-2.mp4' autoPlay loop muted />
       <h1>About Us</h1>
-      <p>With Celebrity Sentiment Analysis (CSA), we bring you a
+      <p className = 'para'>With Celebrity Sentiment Analysis (CSA), we bring you a
           a convenient way to check the general public's view on 
           a specific celebrity. Whether it would be your favorite
           athelete, singer, dancer, tik tok influencer, or youtube
@@ -22,8 +24,8 @@ export class AboutUs extends Component {
           phrases/words that determined the celebrities current 
           sentiment status.
       </p>
-      
     </div>
+    <Footer/>
             </div>
         )
     }
