@@ -22,14 +22,14 @@ const Graphs = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <div class = "Graph">
-        <PieChart width={400} height={400}>
+        <PieChart width={600} height={600}>
           <Pie
             dataKey="users"
             isAnimationActive={false}
             data={data}
             cx={200}
             cy={200}
-            outerRadius={80}
+            outerRadius={179}
             fill="#ff38f5"
             label
           />
