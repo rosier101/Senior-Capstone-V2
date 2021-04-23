@@ -21,7 +21,7 @@ function Header() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={console.log('It is clicked!')}
         >
           HOW IT WORKS <i className='far fa-play-circle' />
         </Button>

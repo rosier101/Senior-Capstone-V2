@@ -6,7 +6,9 @@
         "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
         "slug": "hello-world",
         "img" : "https://ilarge.lisimg.com/image/16801290/1080full-kylie-jenner.jpg",
-        "banner" : ""
+        "banner" : "https://i.pinimg.com/originals/a5/2b/96/a52b963809c7e64e538b113cccf61dda.jpg",
+        "handle": "@kyliejenner",
+        "handlelink" : "https://www.instagram.com/kyliejenner/"
     },
     {
 
@@ -15,7 +17,10 @@
     "content": "Social Media Public Figure",
     "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
     "slug": "hello-world",
-    "img": "https://i.pinimg.com/originals/e9/1a/33/e91a3373b55e59368527f063e363daee.jpg"
+    "img": "https://i.pinimg.com/originals/e9/1a/33/e91a3373b55e59368527f063e363daee.jpg",
+    "banner" : "https://cdn.shopify.com/s/files/1/0328/0021/articles/kim_kardashian_banner5-01_1024x1024.jpg?v=1525140572",
+    "handle": "@kimkardashian",
+    "handlelink" : "https://www.instagram.com/kimkardashian/"
     },
 
         {
@@ -24,7 +29,10 @@
             "content": "Professional Wrestler",
             "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
             "slug": "hello-world",
-            "img" : "https://i1.wp.com/tnwtlmovement.com/wp-content/uploads/2020/03/img_1942-1.jpg?fit=728%2C728&ssl=1"
+            "img" : "https://i1.wp.com/tnwtlmovement.com/wp-content/uploads/2020/03/img_1942-1.jpg?fit=728%2C728&ssl=1",
+            "banner" : "https://sparxentertainment.files.wordpress.com/2016/05/therock_banner.png",
+            "handle": "@therock",
+            "handlelink" : "https://www.instagram.com/therock/"
         },
 
         {
@@ -33,7 +41,10 @@
             "content": "Professional Soccer Player",
             "disclaimer": "*Disclaimer: This user has a large international fan base. Only English comments were analyzed. VAMOS!",
             "slug": "hello-world",
-            "img" : "https://live.staticflickr.com/3882/14404364778_7839d5398e_b.jpg"
+            "img" : "https://live.staticflickr.com/3882/14404364778_7839d5398e_b.jpg",
+            "banner" : "https://d107a8nc3g2c4h.cloudfront.net/blog/wp-content/uploads/2018/05/CR7-blog-banner.jpg",
+            "handle": "@cristiano",
+            "handlelink" : "https://www.instagram.com/cristiano/"
         },
 
         {
@@ -42,7 +53,10 @@
             "content": "Tesla CEO",
             "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
             "slug": "hello-world",
-            "img" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk.jpeg"
+            "img" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk.jpeg",
+            "banner" : "https://d107a8nc3g2c4h.cloudfront.net/blog/wp-content/uploads/2018/05/CR7-blog-banner.jpg",
+            "handle": "@cristiano",
+            "handlelink" : "https://www.instagram.com/elonrmuskk/"
         },
 
         {
@@ -51,6 +65,9 @@
             "content": "Beauty Guru/Youtube Content Creator",
             "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
             "slug": "hello-world",
-            "img" : "https://i.pinimg.com/originals/a8/ed/88/a8ed88c19e5e5876b293f032d25f0a07.jpg"
+            "img" : "https://i.pinimg.com/originals/a8/ed/88/a8ed88c19e5e5876b293f032d25f0a07.jpg",
+            "banner" : "https://cdn.shopify.com/s/files/1/0737/8455/files/589_JSC_Blood_Lust_Collection_Medium_Banner_D_Blank_1400x.jpg?v=1582239983",
+            "handle": "@jeffreestar",
+            "handlelink" : "https://www.instagram.com/jeffreestar/"
         }
 ]

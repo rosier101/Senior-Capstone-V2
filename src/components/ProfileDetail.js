@@ -1,30 +1,59 @@
 import React, { Component } from 'react'
-import PostData from '../data/posts.json';
-import '../styles/ProfileDetail.css';
+import axios from 'axios';
 
 
+class ProfileDetail extends Component {
+    constructor(props) {
+		super(props)
 
-export class ProfileDetail extends Component {
-    render() {
-        return (
-            <div class = "profile">
-            {PostData.map((postDetail, index)=>{
-                return <div>
-                    <h1 class = "celebName">{postDetail.title}</h1>
-                    <p class = "description">{postDetail.content}</p>
-                    <p class = "disclaimer">{postDetail.disclaimer}</p>
-                    <img class = "celebPic" src = {postDetail.img}/>
+	  this.state = {
+        //posts is subject to change
+      posts: [],
+      errorMsg: ''
+		}
+	}
 
-                    <div>
-                    <img class = "mood" src = "/images/positive.jpg" alt = "smiley"/>
-                    </div>
-                    </div>
+	componentDidMount() {
+		axios
+        //this is the get request for bernie
+			.get('https://jsonplaceholder.typicode.com/users')
+			.then(response => {
+				console.log(response)
+				this.setState({ posts: response.data })
+			})
+            //if no data then throw an error
+			.catch(error => {
+        console.log(error)
+        this.setState({errorMsg: 'Error retrieving data'})
+			})
+	}
 
-                    
-            })}
-            </div>
-        )
-    }
+	render() {
+		const { posts, errorMsg } = this.state
+		return (
+			
+			<div>
+				List of posts
+                {//example on how to retrieve specific data
+                }
+				{posts.length
+					? posts.map(post => <div key={post.id}>{post.title}</div>)
+          : null}
+        {errorMsg ? 
+        <div>
+            {errorMsg}
+
+			
+        </div> 
+                : null}
+
+				
+			</div>
+
+			
+		)
+	}
 }
+
 
 export default ProfileDetail;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import {
   PieChart,
   Pie,
@@ -11,6 +11,20 @@ import {
   Bar,
 } from "recharts";
 import '../styles/Graphs.css';
+import axios from 'axios';
+
+// export default class Graph extends Component {
+// componentDidMount() {
+//   axios.get('http://localhost:5000/celebs/'+handle)
+//     .then(response => {
+//       this.setState({ exercises: response.data })
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//     })
+// }
+// }
+
 
 const Graphs = () => {
   const data = [
