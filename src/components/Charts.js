@@ -4,7 +4,7 @@ import axios from "axios";
 
 const Charts = () => {
   const [chartData, setChartData] = useState({});
-  const [handle, setHandle] = useState([]);
+  //const [handle, setHandle] = useState([]);
  
 
   const chart = () => {

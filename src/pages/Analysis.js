@@ -4,7 +4,6 @@ import PostData from '../data/posts.json';
 import '../styles/Analysis.css';
 import Navbar from '../components/Navbar';
 //import Footer from '../components/Footer';
-//import Graphs from "../components/Graphs";
 import Charts from "../components/Charts";
 
 
@@ -31,7 +30,7 @@ const profiles = PostData.filter(profiles => profiles.title === title);
                         {/* <div>
                         <img class = "mood" src = "/images/positive.jpg" alt = "smiley"/>
                         </div> */}
-                        {/*<Graphs/>*/} 
+                    
                         {<Charts/>} 
                          
                     </div>
@@ -39,7 +38,7 @@ const profiles = PostData.filter(profiles => profiles.title === title);
                     
                 ))}
 
-<Charts/>
+
                 
             </div>
         )
