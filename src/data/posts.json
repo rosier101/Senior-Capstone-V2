@@ -1,7 +1,7 @@
 [ 
     {
         "id": 1,
-        "title": "Kylie Jenner",
+        "title": "Kylie_Jenner",
         "content": "Social Media Public Figure",
         "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
         "slug": "hello-world",
@@ -13,7 +13,7 @@
     {
 
     "id": 2,
-    "title": "Kim Kardashian",
+    "title": "Kim_Kardashian",
     "content": "Social Media Public Figure",
     "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
     "slug": "hello-world",
@@ -25,7 +25,7 @@
 
         {
             "id": 3,
-            "title": "The Rock",
+            "title": "The_Rock",
             "content": "Professional Wrestler",
             "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
             "slug": "hello-world",
@@ -37,7 +37,7 @@
 
         {
             "id": 4,
-            "title": "Cristiano Ronaldo",
+            "title": "Cristiano_Ronaldo",
             "content": "Professional Soccer Player",
             "disclaimer": "*Disclaimer: This user has a large international fan base. Only English comments were analyzed. VAMOS!",
             "slug": "hello-world",
@@ -49,7 +49,7 @@
 
         {
             "id": 5,
-            "title": "Elon Musk",
+            "title": "Elon_Musk",
             "content": "Tesla CEO",
             "disclaimer": "*Disclaimer: This user may have comment filtering turned on",
             "slug": "hello-world",
@@ -61,7 +61,7 @@
 
         {
             "id": 6,
-            "title": "Jeffree Star",
+            "title": "Jeffree_Star",
             "content": "Beauty Guru/Youtube Content Creator",
             "disclaimer": "*Disclaimer: This user could have comment filtering turned on",
             "slug": "hello-world",

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   PieChart,
   Pie,
@@ -13,7 +13,6 @@ import {
 import '../styles/Graphs.css';
 import axios from 'axios';
 import PostData from '../data/posts.json';
-
 
 const Graphs = () => {
   const handle = PostData.handle; 

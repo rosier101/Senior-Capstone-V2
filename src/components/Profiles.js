@@ -13,14 +13,14 @@ function profile() {
               src='images/KimK.jpg'
               text='Kim Kardashian - Skims'
               label='Social Media Influncer'
-              title = 'Kim Kardashian'
+              title = 'Kim_Kardashian'
               //path='/analysis'
             />
             <ProfileItems
               src='images/TheRock.jpg'
               text='The Rock - Zoa Energy Drink'
               label='Pressional Wrestler & Actor'
-              title = 'The Rock'
+              title = 'The_Rock'
               //path='/'
             />
           </ul>
@@ -29,28 +29,28 @@ function profile() {
               src='images/Ronaldo.jpg'
               text='Cristiano Ronaldo - Portugal Team'
               label='Professional Soccer Player'
-              title = "Cristiano Ronaldo"
+              title = "Cristiano_Ronaldo"
               //path='/'
             />
             <ProfileItems
               src='images/Kylie.jpg'
               text='Kylie Jenner - Kylie Cosmetics'
               label='Social Media Influncer'
-              title = "Kylie Jenner"
+              title = "Kylie_Jenner"
               //path='/'
             />
             <ProfileItems
               src='images/Elon.jpg'
               text='Elon Musk - Tesla'
               label='CEO'
-              title = "Elon Musk"
+              title = "Elon_Musk"
               //path='/'
             />
             <ProfileItems
               src='images/Jeffree.jpg'
               text='Jeffree Star - Jeffree Star Cosmetics'
               label='Beauty Guru'
-              title = "Jeffree Star"
+              title = "Jeffree_Star"
               //path='/'
             />
           </ul>

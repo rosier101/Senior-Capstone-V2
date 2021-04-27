@@ -9,7 +9,7 @@ function ProfileItems(props) {
           <figure className='profile__items__pic-wrap' data-category={props.label}>
             <img
               className='profile__items__img'
-              alt='Profile Image'
+              alt=''
               src={props.src}
             />
           </figure>
