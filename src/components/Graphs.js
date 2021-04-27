@@ -12,27 +12,26 @@ import {
 } from "recharts";
 import '../styles/Graphs.css';
 import axios from 'axios';
-
-// export default class Graph extends Component {
-// componentDidMount() {
-//   axios.get('http://localhost:5000/celebs/'+handle)
-//     .then(response => {
-//       this.setState({ exercises: response.data })
-//     })
-//     .catch((error) => {
-//       console.log(error);
-//     })
-// }
-// }
+import PostData from '../data/posts.json';
 
 
 const Graphs = () => {
+  const handle = PostData.handle; 
+    axios.get('http://localhost:5000/celebs/' + handle)
+    .then(response => {
+      console.log(response)
+      this.setState({ celeb: response.data })
+    })
+    .catch((error) => {
+      console.log(error);
+    })
+
   const data = [
     { name: "Positive", users: 2000000000 },
     { name: "Negative", users: 1500000000 },
     
   ];
-
+  
   return (
     <div style={{ textAlign: "center" }}>
       <div class = "Graph">
@@ -72,6 +71,7 @@ const Graphs = () => {
           <CartesianGrid strokeDasharray="3 3" />
           <Bar dataKey="users" fill="#8884d8" background={{ fill: "#eee" }} />
         </BarChart>
+    
       </div>
     </div>
   );
