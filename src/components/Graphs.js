@@ -19,7 +19,7 @@ const Graphs = () => {
     axios.get('http://localhost:5000/celebs/' + handle)
     .then(response => {
       console.log(response)
-      this.setState({ celeb: response.data })
+      this.setState({ handle: response.data })
     })
     .catch((error) => {
       console.log(error);
@@ -42,7 +42,7 @@ const Graphs = () => {
             cx={200}
             cy={200}
             outerRadius={179}
-            fill="#ff38f5"
+            fill="#52fff6"
             label
           />
           <Tooltip />
