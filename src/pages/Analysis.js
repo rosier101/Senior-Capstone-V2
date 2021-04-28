@@ -31,7 +31,9 @@ const profiles = PostData.filter(profiles => profiles.title === title);
                         <img class = "mood" src = "/images/positive.jpg" alt = "smiley"/>
                         </div> */}
                     
-                        {<Charts/>} 
+                        {<Charts
+                            handle={pr.handle}
+                        />} 
                          
                     </div>
 

@@ -15,7 +15,7 @@ function profile() {
               text='Kim Kardashian - Skims'
               label='Social Media Influncer'
               title = 'Kim_Kardashian'
-              handle = "kimkardashian"
+              handle = "@kimkardashian"
               //path='/analysis'
             />
             <ProfileItems
@@ -23,7 +23,7 @@ function profile() {
               text='The Rock - Zoa Energy Drink'
               label='Pressional Wrestler & Actor'
               title = 'The_Rock'
-              handle = "therock"
+              handle = "@therock"
               //path='/'
             />
           </ul>
@@ -33,7 +33,7 @@ function profile() {
               text='Cristiano Ronaldo - Portugal Team'
               label='Professional Soccer Player'
               title = "Cristiano_Ronaldo"
-              handle = "cristiano"
+              handle = "@cristiano"
               //path='/'
             />
             <ProfileItems
@@ -41,14 +41,15 @@ function profile() {
               text='Kylie Jenner - Kylie Cosmetics'
               label='Social Media Influncer'
               title = "Kylie_Jenner"
-              handle = "kyliejenner"
+              handle = "@kyliejenner"
               //path='/'
             />
             <ProfileItems
-              src='images/Elon.jpg'
-              text='Elon Musk - Tesla'
-              label='CEO'
-              title = "Elon_Musk"
+              src='images/Jake.jpg'
+              text='Jake Paul- YT Content Creator'
+              label='Owner'
+              title = "Jake_Paul"
+              handle = '@jakepaul'
               //path='/'
             />
             <ProfileItems
@@ -56,7 +57,7 @@ function profile() {
               text='Jeffree Star - Jeffree Star Cosmetics'
               label='Beauty Guru'
               title = "Jeffree_Star"
-              handle = "jeffreestar"
+              handle = "@jeffreestar"
               //path='/'
             />
           </ul>
