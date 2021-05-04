@@ -98,7 +98,7 @@ function Chart(props) {
       //.get("https://jsonplaceholder.typicode.com/users")
       .then(res => {
         setInstaData(res.data)
-        //console.log(res);
+        console.log(res);
     })
     .catch((error) => {
       console.log(error);

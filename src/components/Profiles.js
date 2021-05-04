@@ -47,7 +47,7 @@ function profile() {
             <ProfileItems
               src='images/Jake.jpg'
               text='Jake Paul- YT Content Creator'
-              label='Owner'
+              label='Content Creator'
               title = "Jake_Paul"
               handle = '@jakepaul'
               //path='/'
